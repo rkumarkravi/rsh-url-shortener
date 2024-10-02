@@ -5,7 +5,7 @@
 This project is a simple URL shortener service built with Spring Boot. It allows users to shorten long URLs into shorter, more manageable links. The application uses an H2 in-memory database for storage and Spring Data JPA for data access.
 
 ## project Idea URL
-https://roadmap.sh/projects/url-shortening-service
+Note: This project is a sample solution for the [URL Shortening Service](https://roadmap.sh/projects/url-shortening-service) challenge from the [roadmap.sh](https://roadmap.sh/)
 
 ## Features
 
