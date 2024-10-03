@@ -25,7 +25,7 @@ public class UrlShortenerService {
         UrlDataEntity urlDataEntity = new UrlDataEntity();
         urlDataEntity.setUrlId(0L);
         urlDataEntity.setUrl(createShortUrlDto.getUrl());
-        urlDataEntity.setShortCode(Util.generateUniqueValue((int)System.currentTimeMillis()));
+        urlDataEntity.setShortCode(Util.generateUniqueValueV2());
         urlDataEntity.setCreatedAt(LocalDateTime.now());
 //        urlDataEntity.setUpdatedAt(LocalDateTime.now());
         urlDataEntity.setAccessCount(0L);
